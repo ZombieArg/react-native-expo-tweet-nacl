@@ -1,8 +1,8 @@
 # React Native Expo Tweet NaCl [<img src="https://www.tomsquest.com/img/posts/2018-10-02-better-npm-ing/npm_logo.png" width="50"/>](https://www.npmjs.com/package/tweet-nacl-react-native-expo)
 
-### This package is a Fork from @rajtatata repo that contains modified files from [TweetNaCl.js](https://github.com/dchest/tweetnacl-js) that work with react native expo
+### This package is a Fork from @rajtatata [repo](https://github.com/rajtatata/react-native-expo-tweet-nacl) that contains modified files from [TweetNaCl.js](https://github.com/dchest/tweetnacl-js) that work with react native expo
 
-#### The original repo from @rajtatata is using `expo-random` that is deprecated and the current available library to generate randomBytes it's `expo-crypto`. The intention of this package is to creare an up to date implementation of React Native Expo Tweet NaCl
+#### The original repo from @rajtatata is using `expo-random` that is deprecated and the current available library to generate randomBytes it's `expo-crypto`. The intention of this package is to create an up to date implementation of React Native Expo Tweet NaCl.
 
 ##### Example App: [Tweet NaCl Demo (React Native Expo)](https://github.com/ZombieArg/react-native-tweet-nacl-expo-example)
 ##### Tweet NaCl documentation: [TweetNaCl.js Docs](https://github.com/dchest/tweetnacl-js#documentation)
