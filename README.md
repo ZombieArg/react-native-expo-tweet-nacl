@@ -4,7 +4,7 @@
 
 #### The original repo from @rajtatata is using `expo-random` that is deprecated and the current available library to generate randomBytes it's `expo-crypto`. The intention of this package is to create an up to date implementation of React Native Expo Tweet NaCl.
 
-##### Example App: [Tweet NaCl Demo (React Native Expo)](https://github.com/ZombieArg/react-native-tweet-nacl-expo-example)
+##### Example App: [Tweet NaCl Demo (React Native Expo)](https://github.com/rajtatata/react-native-tweet-nacl-expo-example)
 ##### Tweet NaCl documentation: [TweetNaCl.js Docs](https://github.com/dchest/tweetnacl-js#documentation)
 
 # Modifications
