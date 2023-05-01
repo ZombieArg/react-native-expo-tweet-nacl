@@ -1,15 +1,17 @@
 # React Native Expo Tweet NaCl [<img src="https://www.tomsquest.com/img/posts/2018-10-02-better-npm-ing/npm_logo.png" width="50"/>](https://www.npmjs.com/package/tweet-nacl-react-native-expo)
 
-### This package contains modified files from [TweetNaCl.js](https://github.com/dchest/tweetnacl-js) that work with react native expo
+### This package is a Fork from @rajtatata repo that contains modified files from [TweetNaCl.js](https://github.com/dchest/tweetnacl-js) that work with react native expo
 
-#### Example App: [Tweet NaCl Demo (React Native Expo)](https://github.com/rajtatata/react-native-tweet-nacl-expo-example)
-#### Tweet NaCl documentation: [TweetNaCl.js Docs](https://github.com/dchest/tweetnacl-js#documentation)
+#### The original repo from @rajtatata is using `expo-random` that is deprecated and the current available library to generate randomBytes it's `expo-crypto`. The intention of this package is to creare an up to date implementation of React Native Expo Tweet NaCl
+
+##### Example App: [Tweet NaCl Demo (React Native Expo)](https://github.com/ZombieArg/react-native-tweet-nacl-expo-example)
+##### Tweet NaCl documentation: [TweetNaCl.js Docs](https://github.com/dchest/tweetnacl-js#documentation)
 
 # Modifications
 
 -  Modified nacl-fast.js in order to replace the method for generating random bytes
 
-- Used [getRandomBytesAsync](https://docs.expo.io/versions/latest/sdk/random/#getrandombytesasync) from [expo-random](https://docs.expo.io/versions/latest/sdk/random/) in order to generate random bytes
+- Used [getRandomBytesAsync](https://docs.expo.dev/versions/latest/sdk/crypto/#cryptogetrandombytesasyncbytecount) from [expo-crypto](https://docs.expo.dev/versions/latest/sdk/crypto/) in order to generate random bytes
 
 - Since getRandomBytesAsync is async the following methods have become async
     - nacl.randomBytes

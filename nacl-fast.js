@@ -1,4 +1,4 @@
-import {getRandomBytesAsync} from '../expo-random'
+import {getRandomBytesAsync} from '../expo-crypto'
 
 (function(nacl) {
 'use strict';
